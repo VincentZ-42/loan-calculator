@@ -7,9 +7,11 @@
 * [References](#references)
 
 ## Description
-A simple network application that calculates monthly payments based on amount borrowed, duration of repayment, and a fixed APR.
+Loan calculator is a network application that calculates monthly payments based on amount borrowed, duration of repayment, and a fixed APR. This application was designed to generate web content dynamically based on the inputs from the user as well as allow users to calculate their monthly loan payments incrementally. 
 
-![form](/public/images/web1.jpg) ![loan details](/public/images/web2.jpg)
+| homepage | loan details |
+| :------: | :----------: |
+| ![form](/public/images/web1.jpg) | ![loan details](/public/images/web2.jpg) |
 
 ## Usage (Run from localhost)
 1. Clone repositiory into desired directory location
@@ -29,8 +31,8 @@ A simple network application that calculates monthly payments based on amount bo
 - Understanding the HTTP Request/Response cycle of a networked application
 - Understanding Client and Server side workflows in an application
 - Creating dynamic content with template engines
-		- Modules:
-			- `handlebars` used to create template for generating dynamic content 
+	- Modules:
+		- `handlebars` used to create template for generating dynamic content 
 - Understanding HTTP Methods and Static Assets
 	- Modules:
 		- `querystring` to use `querystring.parse()` method to access data in request body of `POST` method

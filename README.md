@@ -9,7 +9,7 @@
 ## Description
 Loan calculator is a network application that calculates monthly payments based on amount borrowed, duration of repayment, and a fixed APR. This application was designed to generate web content dynamically based on the inputs from the user as well as allow users to calculate their monthly loan payments incrementally. 
 
-| homepage | loan details |
+| Homepage | Loan Details |
 | :------: | :----------: |
 | ![form](/public/images/web1.jpg) | ![loan details](/public/images/web2.jpg) |
 

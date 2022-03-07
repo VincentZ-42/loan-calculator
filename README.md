@@ -1,6 +1,4 @@
 # Loan calculator
-![form](/public/images/web1.jpg)
-![loan details](/public/images/web2.jpg)
 
 ### Table of Contents
 * [Description](#description)
@@ -11,22 +9,35 @@
 ## Description
 A simple network application that calculates monthly payments based on amount borrowed, duration of repayment, and a fixed APR.
 
+![form](/public/images/web1.jpg) ![loan details](/public/images/web2.jpg)
+
 ## Usage (Run from localhost)
 1. Clone repositiory into desired directory location
 2. Navigate to directory in the terminal
 3. In the terminal:
-	a. Install packages with `npm install`
-	b. Initiate and run server with `node app.js`
+	- Install packages with `npm install`
+	- Create server with `node app.js`
 4. Open any browser and type in `http://localhost:3000`
 5. Use the application by Inputting and adjusting the inputs
 
 ## Learning Objectives
+- Learning basic HTML and CSS syntax to to create templates
+- Understanding how to design and implement a networked application
+	- Modules:
+		- `http` used to create server with `createServer()` method and `listen()` method to make it responsive to requests
+		- `url` used to parse url and use query string as data in HTTP Request 
 - Understanding the HTTP Request/Response cycle of a networked application
 - Understanding Client and Server side workflows in an application
 - Creating dynamic content with template engines
+		- Modules:
+			- `handlebars` used to create template for generating dynamic content 
 - Understanding HTTP Methods and Static Assets
+	- Modules:
+		- `querystring` to use `querystring.parse()` method to access data in request body of `POST` method
+		- `serve-static` used to handle requests for static files
 - Using Routing engine to manage request handlers
-- Understanding how to design and implement a networked application
+	- Modules:
+		- `router` & `finalhandler` used for routing and serve as middleware within our application
 
 ## References
 - Project created for academic learning based on curriculum by Launch School

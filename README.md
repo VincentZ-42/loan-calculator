@@ -11,7 +11,7 @@ Loan calculator is a network application that calculates monthly payments based 
 
 | homepage | loan details |
 | :------: | :----------: |
-| ![form](/public/images/web1.jpg) | ![loan details](/public/images/web2.jpg) |
+| ![form](/public/images/web1.jpg) | ![loan details](/public/images/web2.jpg = 200x300) |
 
 ## Usage (Run from localhost)
 1. Clone repositiory into desired directory location

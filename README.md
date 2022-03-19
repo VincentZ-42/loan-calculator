@@ -13,7 +13,11 @@ Loan calculator is a network application that calculates monthly payments based 
 | :------: | :----------: |
 | ![form](/public/images/web1.jpg) | ![loan details](/public/images/web2.jpg) |
 
-## Usage (Run from localhost)
+## Usage
+- Application is run on your local machine or localhost in port 3000
+- Must have node pre-installed in order to run 
+
+### Steps to run application
 1. Clone repositiory into desired directory location
 2. Navigate to directory in the terminal
 3. In the terminal:
